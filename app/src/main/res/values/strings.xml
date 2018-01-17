@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Test Project</string>
+    <string name="my_button_text">Min knapp</string>
+    <string name="reminder">Påminnelse</string>
+    <string name="done">Ferdig</string>
+    <string name="ja">Ja</string>
+    <string name="nei">Nei</string>
+    <string name="nyActivity">Bytt Activity</string>
+    <string name="spm">Er 2 + 2 = 4?</string>
+</resources>

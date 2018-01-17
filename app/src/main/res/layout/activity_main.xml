@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <TextView
+        android:id="@+id/sporsmaal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="65dp"
+        android:layout_marginTop="37dp"
+        android:textSize="30dp"
+        android:text="@string/spm" />
+
+    <Button
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sporsmaal"
+        android:layout_alignParentLeft="true"
+        android:text="@string/ja"
+        android:id="@+id/ja" />
+
+    <Button
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sporsmaal"
+        android:layout_alignParentRight="true"
+        android:text="@string/nei"
+        android:id="@+id/nei" />
+
+    <Button
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nei"
+        android:text="@string/nyActivity"
+        android:id="@+id/nyActvity" />
+
+
+</RelativeLayout>
